@@ -1,5 +1,9 @@
-// Token Structure
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
+// Token Structure
 struct token {
     int token;
     int intValue;

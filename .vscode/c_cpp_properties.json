@@ -51,7 +51,7 @@
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64",
             "mergeConfigurations": false,
-            "compilerPath": "C:\\msys64\\usr\\bin\\g++.exe",
+            "compilerPath": "/usr/lib64/ccache/gcc",
             "browse": {
                 "path": [
                     "c:/Users/jackg/OneDrive - UCB-O365/Documents/!prjs/ubiquitous-umbrella/**",
@@ -59,6 +59,28 @@
                 ],
                 "limitSymbolsToIncludedHeaders": true
             }
+        },
+        {
+            "name": "Piplup GCC",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/lib64/ccache/gcc"
+        },
+        {
+            "name": "Piplup G++",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/lib64/ccache/g++"
         }
     ],
     "version": 4
